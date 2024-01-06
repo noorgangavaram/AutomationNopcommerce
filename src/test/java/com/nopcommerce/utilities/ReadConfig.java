@@ -84,4 +84,21 @@ public class ReadConfig {
 		String comment = properties.getProperty("Comment");
 		return comment;
 	}
+	
+	//Contact US section
+	
+	public String getContactName() {
+		String Name = properties.getProperty("Name");
+		return Name;
+	}
+	
+	public String getContactEmail() {
+		String Email = properties.getProperty("Email");
+		return Email;
+	}
+	
+	public String getContactQuery() {
+		String Enuery = properties.getProperty("Enquiry");
+		return Enuery;
+	}
 }

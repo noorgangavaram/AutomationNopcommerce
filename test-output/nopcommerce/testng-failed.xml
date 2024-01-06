@@ -4,13 +4,13 @@
   <test thread-count="5" name="NopcommerceTest(failed)">
     <parameter name="browser" value="firefox"/>
     <classes>
-      <class name="com.nopcommerce.testCases.TC_AddProductShopping_007">
+      <class name="com.nopcommerce.testCases.TC_ContactUs_010">
         <methods>
           <include name="setup"/>
           <include name="tearDown"/>
-          <include name="ProductWishList"/>
+          <include name="ContactTest"/>
         </methods>
-      </class> <!-- com.nopcommerce.testCases.TC_AddProductShopping_007 -->
+      </class> <!-- com.nopcommerce.testCases.TC_ContactUs_010 -->
     </classes>
   </test> <!-- NopcommerceTest(failed) -->
 </suite> <!-- Failed suite [nopcommerce] -->

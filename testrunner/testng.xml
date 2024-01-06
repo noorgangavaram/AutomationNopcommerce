@@ -4,6 +4,7 @@
   <test name="NopcommerceTest">
 	<parameter name="browser" value="firefox"></parameter>
     <classes>
+		
       <class name="com.nopcommerce.testCases.TC_LoginTest_001"/>
       <class name="com.nopcommerce.testCases.TC_LoginDDT_001"/>
       <class name="com.nopcommerce.testCases.TC_SearchPage_002"/>
@@ -14,6 +15,8 @@
       <class name="com.nopcommerce.testCases.TC_AddProductShopping_007"/>
       <class name="com.nopcommerce.testCases.TC_NewsPage_008"/>
       <class name="com.nopcommerce.testCases.TC_Blog_009"/>
+      <class name="com.nopcommerce.testCases.TC_ContactUs_010"/>
+      
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

@@ -30,6 +30,9 @@ public class BaseCLASS {
 	public String ConfiPass = readconfig.getConfirmPassword();
 	public String title = readconfig.getTitle();
 	public String comment = readconfig.getComment();
+	public String name = readconfig.getContactName();
+	public String email = readconfig.getContactEmail();
+	public String enquery = readconfig.getContactQuery();
 	
 	
 	WebDriver driver;
